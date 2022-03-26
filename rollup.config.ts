@@ -5,7 +5,7 @@ import dts from "rollup-plugin-dts";
 
 export default [
     {
-        input: "src/index.ts",
+        input: "./src/index.ts",
         output: [
             {
                 file: pkg.main,
@@ -25,7 +25,7 @@ export default [
         ]
     },
     {
-        input: "src/index.ts",
+        input: "./src/index.ts",
         output: [
             {
                 file: pkg.types,
